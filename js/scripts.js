@@ -1,15 +1,21 @@
 $(function() {
   $("#animal").change(function(){
     var option = $("#animal").val();
-  
+
   if (option === "insects"){
-    console.log("hi");
+    $(".card").hide();
+
+    $("#" + option + "-card").show();
   }
   else if (option === "snakes"){
-    console.log("hey");
+    $(".card").hide();
+
+    $("#" + option + "-card").show();
   }
   else if (option === "turtles"){
-    console.log("hola");
+    $(".card").hide();
+
+    $("#" + option + "-card").show();
   }
   });
 

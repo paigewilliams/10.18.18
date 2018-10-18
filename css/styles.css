@@ -7,3 +7,7 @@ body {
   margin: 30px;
 
 }
+
+#turtles-card, #insects-card, #snakes-card {
+  display: none;
+}
